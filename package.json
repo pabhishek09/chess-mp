@@ -1,0 +1,41 @@
+{
+  "name": "chess-mp",
+  "version": "1.0.0",
+  "description": "Multiplayer chess game",
+  "main": "app.js",
+  "scripts": {
+    "start": "",
+    "dev:server": "nodemon --config nodemon.json",
+    "dev:client": "",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabhishek09/chess-mp.git"
+  },
+  "keywords": [
+    "Chess",
+    "Multiplayer"
+  ],
+  "author": "pabhishek.2009@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabhishek09/chess-mp/issues"
+  },
+  "homepage": "https://github.com/pabhishek09/chess-mp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-helmet": "^6.0.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0"
+  }
+}
